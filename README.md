@@ -10,3 +10,4 @@ The implementation of every design pattern are solutions to challenges that are 
 The following design patterns implementation are included: 
 1. Observer Pattern
 2. Strategy Pattern
+3.. Adapter Pattern
