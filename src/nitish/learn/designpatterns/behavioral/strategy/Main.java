@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         PhoneCameraApp phoneCameraApp = new BasicCameraApp();
 
-        CameraAppShareStrategy  shareByEmail = new ShareByEmail();
+        CameraAppShareStrategy shareByEmail = new ShareByEmail();
         phoneCameraApp.setCameraAppShareStrategy(shareByEmail);
 
         phoneCameraApp.take();
@@ -13,7 +13,7 @@ public class Main {
         phoneCameraApp.save();
         phoneCameraApp.share();
 
-        CameraAppShareStrategy  shareBySocialMedia = new ShareBySocialMedia();
+        CameraAppShareStrategy shareBySocialMedia = new ShareBySocialMedia();
         phoneCameraApp.setCameraAppShareStrategy(shareBySocialMedia);
 
         phoneCameraApp.share();
